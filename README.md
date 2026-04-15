@@ -1,6 +1,4 @@
-# Фух! — GitHub Pages repository
-
-Готовый одностраничный сайт для GitHub Pages.
+# Фух! 
 
 ## Структура
 
