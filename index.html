@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Фух! — умный сервис психологической самопомощи</title>
+    <meta
+      name="description"
+      content="Фух! — умный сервис психологической самопомощи при стрессе и выгорании. AI-помощник, упражнения, трекинг состояния и подбор психолога."
+    />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-glow glow-one"></div>
+    <div class="page-glow glow-two"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#hero" aria-label="На главную">
+          <img src="assets/icon.png" alt="Логотип Фух" class="brand__icon" />
+          <div>
+            <span class="brand__name">Фух!</span>
+            <span class="brand__tag">Ментальному здоровью друг</span>
+          </div>
+        </a>
+
+        <button class="nav-toggle" aria-label="Открыть меню" aria-expanded="false">☰</button>
+
+        <nav class="site-nav">
+          <a href="#about">О сервисе</a>
+          <a href="#features">Возможности</a>
+          <a href="#audience">Для кого</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#roadmap">Планы</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <span class="eyebrow">Умный сервис психологической самопомощи</span>
+            <h1>Фух! Помогает справляться со стрессом, тревогой и выгоранием без лишней формальности</h1>
+            <p class="hero__lead">
+              Сервис для молодых и амбициозных специалистов: AI-помощник, персональные упражнения,
+              бережный трекинг состояния и подбор психолога под запрос.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="https://t.me/FuhMentalBot" target="_blank" rel="noreferrer">Открыть Telegram-бота</a>
+              <a class="btn btn--ghost" href="#about">Посмотреть подробнее</a>
+            </div>
+
+            <div class="hero__points">
+              <span>24/7</span>
+              <span>Анонимно</span>
+              <span>На клинических рекомендациях</span>
+              <span>Для Telegram</span>
+            </div>
+          </div>
+
+          <div class="hero__visual card">
+            <img src="assets/mascot.png" alt="Маскот Фух" class="hero__mascot" />
+            <div class="floating-card floating-card--top">
+              <strong>Фух!</strong>
+              <p>Сначала выдыхаем. Потом спокойно разбираемся, что происходит.</p>
+            </div>
+            <div class="floating-card floating-card--bottom">
+              <span class="badge">AI + КПТ-подход</span>
+              <p>Поддержка здесь и сейчас и более глубокая рефлексия — в одном сервисе.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">О сервисе</span>
+            <h2>Что это такое</h2>
+            <p>
+              Фух! — сервис психологической самопомощи, который помогает при стрессе и выгорании,
+              особенно когда работа, учеба и личная жизнь начинают давить одновременно.
+            </p>
+          </div>
+
+          <div class="two-col">
+            <article class="card prose-card">
+              <h3>Проблема</h3>
+              <p>
+                Молодые специалисты и студенты часто сталкиваются с тревожностью, перегрузкой,
+                внутренним напряжением и нехваткой времени на регулярную помощь. Поиск подходящего
+                специалиста тоже требует сил, денег и времени.
+              </p>
+              <ul class="check-list">
+                <li>Высокий уровень стресса и выгорания</li>
+                <li>Сложно быстро получить понятную поддержку</li>
+                <li>Не хватает доступных и регулярных инструментов самопомощи</li>
+              </ul>
+            </article>
+
+            <article class="card prose-card accent-card">
+              <h3>Решение</h3>
+              <p>
+                Пользователь описывает ситуацию, сервис задаёт уточняющие вопросы и помогает выбрать
+                следующий шаг: быструю поддержку, упражнения, трекинг состояния или подбор психолога.
+              </p>
+              <ul class="check-list">
+                <li>Поддержка 24/7 в Telegram</li>
+                <li>Персональные рекомендации и упражнения</li>
+                <li>AI-подбор психолога под конкретный запрос</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section section--soft">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Возможности</span>
+            <h2>Что умеет Фух</h2>
+          </div>
+
+          <div class="grid grid--4">
+            <article class="card feature-card">
+              <span class="feature-icon">01</span>
+              <h3>AI-диалог</h3>
+              <p>Уточняющие вопросы, чтобы не останавливаться на поверхности, а мягко идти вглубь проблемы.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="feature-icon">02</span>
+              <h3>Упражнения</h3>
+              <p>Персонализированные практики для снижения тревоги, перегрузки и эмоционального напряжения.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="feature-icon">03</span>
+              <h3>Трекинг состояния</h3>
+              <p>Регулярные check-in’ы, чтобы отслеживать состояние и замечать динамику раньше выгорания.</p>
+            </article>
+            <article class="card feature-card">
+              <span class="feature-icon">04</span>
+              <h3>Подбор психолога</h3>
+              <p>Подбор специалиста под конкретный запрос, если нужна уже не только самопомощь, но и живая поддержка.</p>
+            </article>
+          </div>
+
+          <div class="modes card">
+            <div>
+              <span class="eyebrow">Режимы общения</span>
+              <h3>От быстрой помощи до глубокой рефлексии</h3>
+            </div>
+            <div class="mode-tags">
+              <span>Скорая помощь</span>
+              <span>Уйти вглубь</span>
+              <span>Рекомендации</span>
+              <span>Упражнения</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Ценности</span>
+            <h2>На чём строится продукт</h2>
+          </div>
+
+          <div class="grid grid--4">
+            <article class="card value-card">
+              <h3>Доказательный подход</h3>
+              <p>Опора на клинические рекомендации и методы вроде КПТ, АСТ и CFT.</p>
+            </article>
+            <article class="card value-card">
+              <h3>Доступность</h3>
+              <p>Помощь без записи на неделю вперёд — тогда, когда человеку это действительно нужно.</p>
+            </article>
+            <article class="card value-card">
+              <h3>Персонализация</h3>
+              <p>Не общий текст для всех, а следующий шаг под текущую проблему и контекст.</p>
+            </article>
+            <article class="card value-card">
+              <h3>Безопасность</h3>
+              <p>Бережное отношение к данным и конфиденциальности, без ощущения публичности.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="audience" class="section section--soft">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Аудитория</span>
+            <h2>Для кого сервис</h2>
+          </div>
+
+          <div class="grid grid--2">
+            <article class="card audience-card">
+              <h3>Молодые карьеристы</h3>
+              <p>Амбициозные специалисты 20–27 лет, которые боятся выгореть, тревожатся и хотят понятные способы самопомощи.</p>
+            </article>
+            <article class="card audience-card">
+              <h3>Работающие студенты</h3>
+              <p>Те, кто совмещает учёбу, дедлайны и работу, спит мало и живёт в постоянном ощущении перегруза.</p>
+            </article>
+            <article class="card audience-card">
+              <h3>Люди на нелюбимой работе</h3>
+              <p>Специалисты, которые устали от офисной рутины, сомневаются в пути и уже ощущают влияние стресса на жизнь.</p>
+            </article>
+            <article class="card audience-card">
+              <h3>Фрилансеры и творческие специалисты</h3>
+              <p>Те, у кого стирается граница между работой и отдыхом, а тревога и прокрастинация становятся фоном.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Тарифы</span>
+            <h2>Понятная подписка</h2>
+            <p>Стоимость можно адаптировать, но текущая структура из материалов выглядит так.</p>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="card pricing-card">
+              <p class="pricing-card__label">Неделя</p>
+              <h3>390 ₽</h3>
+              <p>Быстрый вход в сервис и тест гипотезы ценности.</p>
+            </article>
+            <article class="card pricing-card pricing-card--featured">
+              <p class="pricing-card__label">Месяц</p>
+              <h3>790 ₽</h3>
+              <p>Основной тариф для регулярной самопомощи и трекинга состояния.</p>
+            </article>
+            <article class="card pricing-card">
+              <p class="pricing-card__label">3 месяца</p>
+              <h3>1990 ₽</h3>
+              <p>Формат для устойчивой работы с тревогой, стрессом и новыми привычками.</p>
+            </article>
+          </div>
+
+          <div class="grid grid--3 metrics-grid">
+            <article class="card metric-card">
+              <span class="metric-card__value">LTV / CAC &gt; 3</span>
+              <p>Целевой ориентир unit-экономики.</p>
+            </article>
+            <article class="card metric-card">
+              <span class="metric-card__value">ROI 50%</span>
+              <p>Один из заявленных ориентиров финансовой модели.</p>
+            </article>
+            <article class="card metric-card">
+              <span class="metric-card__value">IRR 19%</span>
+              <p>Оценка в текущей версии финансовых материалов.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section section--soft">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Roadmap</span>
+            <h2>Что уже сделано и что дальше</h2>
+          </div>
+
+          <div class="timeline">
+            <article class="card timeline-item">
+              <span class="timeline-item__date">2024</span>
+              <h3>Старт проекта</h3>
+              <p>Победа в конкурсе, исследование аудитории, создание бренд-концепции и юридическая база.</p>
+            </article>
+            <article class="card timeline-item">
+              <span class="timeline-item__date">Начало 2025</span>
+              <h3>MVP и бета-тест</h3>
+              <p>Telegram MVP, работа со студией разработки AI-чат-ботов и запуск первых тестов.</p>
+            </article>
+            <article class="card timeline-item">
+              <span class="timeline-item__date">Далее</span>
+              <h3>Релиз и масштабирование</h3>
+              <p>Доработки по обратной связи, подбор команды, B2B-направление и AI-подбор психологов.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container cta-block card">
+          <div>
+            <span class="eyebrow">Попробовать</span>
+            <h2>Когда уже тяжело держать всё в себе — начни с одного сообщения</h2>
+            <p>
+              Фух не заменяет экстренную помощь или полноценную психотерапию, но может стать первой
+              понятной точкой опоры и регулярной поддержкой.
+            </p>
+          </div>
+          <a class="btn btn--primary" href="https://t.me/FuhMentalBot" target="_blank" rel="noreferrer">Перейти в @FuhMentalBot</a>
+        </div>
+      </section>
+
+      <section id="faq" class="section section--soft">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">FAQ</span>
+            <h2>Частые вопросы</h2>
+          </div>
+
+          <div class="faq-list">
+            <details class="card faq-item">
+              <summary>Это замена психологу?</summary>
+              <p>Нет. Это сервис самопомощи и навигации. Он может поддержать, дать упражнения и помочь понять следующий шаг.</p>
+            </details>
+            <details class="card faq-item">
+              <summary>Почему именно Telegram?</summary>
+              <p>Порог входа ниже: не нужно ставить отдельное приложение, а формат общения привычен для целевой аудитории.</p>
+            </details>
+            <details class="card faq-item">
+              <summary>На чём основаны рекомендации?</summary>
+              <p>На клинических рекомендациях, доказательных направлениях психотерапии и продуктовой логике персонализации.</p>
+            </details>
+            <details class="card faq-item">
+              <summary>Можно ли использовать сайт как лендинг для инвесторов и партнёров?</summary>
+              <p>Да. В текущей версии лендинг покрывает продукт, аудиторию, экономику, планы развития и точку входа в сервис.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <strong>Фух!</strong>
+          <p>Умный сервис психологической самопомощи.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://t.me/FuhMentalBot" target="_blank" rel="noreferrer">Telegram</a>
+          <a href="#hero">Наверх</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
