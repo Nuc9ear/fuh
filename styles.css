@@ -523,7 +523,7 @@ button { font: inherit; }
   max-width: 650px;
   font-size: 13px;
   line-height: 1.55;
-  color: #9f9f9f;
+  color: #000;
 }
 
 @media (max-width: 640px) {
