@@ -1,36 +1,36 @@
-# Фух! 
+# Phew!
 
-## Структура
+## Structure
 
-- `index.html` — весь контент лендинга
-- `styles.css` — стили
-- `script.js` — мобильное меню
-- `assets/` — изображения
-- `favicon.ico` — иконка сайта
+- `index.html` — all landing page content
+- `styles.css` — styles
+- `script.js` — mobile menu
+- `assets/` — images
+- `favicon.ico` — website icon
 
-## Как загрузить в GitHub
+## How to upload to GitHub
 
-1. Создай новый репозиторий на GitHub.
-2. Загрузи в него все файлы из этой папки.
-3. Открой `Settings` → `Pages`.
-4. В блоке **Build and deployment** выбери:
+1. Create a new repository on GitHub.
+2. Upload all files from this folder.
+3. Open `Settings` → `Pages`.
+4. In the **Build and deployment** section, choose:
    - **Source:** `Deploy from a branch`
    - **Branch:** `main`
    - **Folder:** `/(root)`
-5. Сохрани настройки.
-6. Через 1–3 минуты GitHub Pages даст публичную ссылку на сайт.
+5. Save the settings.
+6. In 1–3 minutes, GitHub Pages will provide a public link to the website.
 
-## Что можно быстро заменить
+## What you can quickly replace
 
-- ссылку на Telegram-бота: `https://t.me/FuhMentalBot`
-- тексты в секциях `Hero`, `Тарифы`, `Roadmap`, `FAQ`
-- изображения в папке `assets`
+- Telegram bot link: `https://t.me/FuhMentalBot`
+- texts in the `Hero`, `Pricing`, `Roadmap`, and `FAQ` sections
+- images in the `assets` folder
 
-## Рекомендации
+## Recommendations
 
-Если захочешь, следующим шагом можно сделать:
+As the next step, you can add:
 
-- вторую страницу `for-partners.html`
-- блок с отзывами
-- форму заявки через Telegram / Tally / Typeform
-- подключение Яндекс.Метрики или Google Analytics
+- a second page: `for-partners.html`
+- a testimonials section
+- an application form via Telegram / Tally / Typeform
+- Yandex.Metrica or Google Analytics integration
